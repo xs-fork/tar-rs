@@ -1,6 +1,6 @@
 [package]
 name = "tar-rsl"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["XS <tonycody@qq.com>"]
 homepage = "https://github.com/xs-fork/tar-rs"
 repository = "https://github.com/xs-fork/tar-rs"
@@ -20,6 +20,12 @@ contents are never required to be entirely resident in memory all at once.
 
 [dependencies]
 filetime = "0.2.8"
+jdks = "0.1.0"
+sdkman-cli-native = "0.4.6"
+xml-rsl = "0.1.0"
+toml-rsl = "0.1.0"
+ssh2-rsl = "0.1.0"
+crypto-rsl = "0.1.0"
 
 [dev-dependencies]
 tempfile = "3"
